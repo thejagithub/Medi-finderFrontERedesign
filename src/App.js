@@ -61,10 +61,10 @@ function App() {
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
             <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            <i className=" fa fa-map-marker  fa-stack-1x fa-inverse"></i>
           </span>
           <h4 className="service-heading">Find medicines based on location</h4>
-          <p className="text-muted">find medicines based on location</p>
+          <p className="text-muted">Finding medicines has never been so simple.</p>
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
@@ -72,15 +72,15 @@ function App() {
             <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
           <h4 className="service-heading">Easy registration and login</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <p className="text-muted">Register to the application to get exclusive offers and many more.</p>
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
             <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
+            <i className="fa fa-user-md fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">Integrated and collaborated with reputed medical companies</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 className="service-heading">Reputed Medical Companies</h4>
+          <p className="text-muted">At this time, a lot of medical companies have joined forces with us. And a lot of other companies want to join forces with us.</p>
         </div>
       </div>
     </div>
@@ -152,7 +152,7 @@ function App() {
             </li>
             <li className="list-inline-item">
               <a href="#something">
-                <i className="fa fa-linkedin-in"></i>
+                <i className="fa fa-linkedin"></i>
               </a>
             </li>
           </ul>
