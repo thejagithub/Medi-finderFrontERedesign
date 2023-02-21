@@ -1,5 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
+import Register from './components/register.component';
+import {BrowserRouter,Routes,Route} from "react-router-dom";
 
 import './App.css';
 
@@ -30,7 +32,8 @@ function App() {
             <a className="nav-link js-scroll-trigger" href="#team">LogIn</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#contact">SignUp</a>
+            <a className="nav-link js-scroll-trigger">SignUp</a>
+            <link to={"/register"}></link>
           </li>
         </ul>
       </div>
@@ -80,7 +83,7 @@ function App() {
             <i className="fa fa-user-md fa-stack-1x fa-inverse"></i>
           </span>
           <h4 className="service-heading">Reputed Medical Companies</h4>
-          <p className="text-muted">At this time, a lot of medical companies have joined forces with us. And a lot of other companies want to join forces with us.</p>
+          <p className="text-muted">At this time, a lot of medical companies have joined forces with us. And a lot of other companies want to join with us.</p>
         </div>
       </div>
     </div>
@@ -170,6 +173,10 @@ function App() {
       </div>
     </div>
   </footer>
+
+  <Routes>
+  <Route path="/register" element={<Register />} />
+  </Routes>
     </div>
   );
 }
